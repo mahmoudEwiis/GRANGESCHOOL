@@ -1,0 +1,72 @@
+/*-----------------content_page------------------*/
+#content{
+    padding: 140px 0;
+}
+#content .google_map iframe{
+    border-radius: 15px;
+}
+.contact_form h3 , .contact_info h3{
+    font-size: 36.59px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 23px;
+    margin-top: 46px;
+    color: #fff;
+}
+#form_container{
+    padding: 30px 30px 15px;
+    margin-top: 30px;
+    border-radius: 16px;
+    border: 1px solid #151f30;
+}
+#form_container .input_container{
+    margin-bottom: 20px;
+    width: 100%;
+}
+#form_container .input_container input{
+    background-color: #151f30;
+    border: 1px solid transparent;
+    border-radius: 16px;
+    height: 44px;
+    position: relative;
+    color: #fff;
+    font-size: 14px;
+    width: 100%;
+    padding: 0 20px;
+    outline: none;
+}
+#form_container .input_container input:focus{
+    border-color: #2f80ed;
+}
+#form_container .input_container .contact_textarea{
+    background-color: #151f30;
+    border: 1px solid transparent;
+    border-radius: 16px;
+    height: 144px;
+    position: relative;
+    color: #fff;
+    font-size: 14px;
+    width: 100%;
+    padding: 15px 20px;
+    resize: none;
+    outline: none;
+    background-image: url();
+}
+
+#form_container .input_container .contact_textarea:focus{
+    border-color: #2f80ed;
+}
+#form_container  .btn_send{
+    margin-top: 10px;
+    text-align: right;
+}
+
+
+.contact_info_icon i{
+    font-size: 29px;
+    color: #f37335;
+}
+.contact_data{
+    margin-left: 8px;
+    margin-bottom:15px;
+}

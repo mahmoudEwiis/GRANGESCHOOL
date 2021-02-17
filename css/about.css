@@ -1,0 +1,262 @@
+body{
+    overflow-x: hidden !important; 
+}
+/*------main_title_about_page------*/
+.container_main_title_about_page{
+    padding: 7rem 0;
+    background-image: url(../images/pager-bg.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+   
+}
+.main_title_about_page{
+
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 1.5rem;
+
+}
+.main_text_about_page{
+    margin-bottom: 4rem;
+}
+.main_text_about_page ul{
+    margin: 0;
+    padding: 0;
+}
+.main_text_about_page ul li{
+    list-style: none;
+    display: inline-block;
+    color: #fff;
+    padding-left: 18px;
+    font-weight: 600;
+    font-size: 24px;
+}
+.main_text_about_page ul li i{
+    margin-right: 8px;
+}
+.main_text_about_page ul li:first-child {
+    padding-left: 0;
+    margin-left: 0;
+}
+.main_text_about_page ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.main_text_about_page ul li a:hover{
+    color: #2f80ed;
+}
+.main_title_about_page h2{
+    color: #fff;
+    position: absolute;
+    font-size: 5rem;
+    font-weight: 800;
+    margin-bottom: 0;
+    letter-spacing: 3px; 
+    z-index: -1;
+    opacity: 0.1;
+}
+.main_title_about_page h3 {
+    font-weight: 800;
+    margin-bottom: 0;
+    letter-spacing: 3px; 
+    color: #fff;
+    font-size: 2.5rem;
+    margin-top: .25rem;
+    margin-top: 1.4rem;   
+}
+
+/*-----about_page_welcome_section---*/
+#about_page_welcome_section{
+    padding: 138px 0 0;
+    margin-bottom: 40px;
+}
+.about_page_welcome_title{
+    margin-bottom: 43px;
+}
+.about_page_welcome_title h2{
+    font-size: 58.94px;
+    margin-bottom: 25px;
+    font-size: 48.77px;
+    font-weight: 700;
+}
+.about_page_welcome_title h2 span{
+    color: #2f80ed;
+}
+.about_page_welcome_title p , .about_page_mission_title p{
+    font-size: 17px;
+
+    width: 100% !important;
+    margin-bottom: 50px;
+}
+.about_page_welcome_section{
+    padding-bottom: 60px;
+}
+.about_page_mission_title small{
+    color: #f37335;
+    font-size: 14.23px;
+    font-weight: 500;
+    margin-bottom: -10px;
+}
+.about_page_mission_title h2{
+    font-size: 48.78px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+.about_page_mission_title ul{
+    padding: 0;
+    margin: 0;
+}
+.about_page_mission_title ul li{
+    list-style: none;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.about_page_mission_title ul li i{
+    margin-right: 15px;
+    color: #f37335;
+}
+
+
+/*-----about_page_welcome_section---*/
+
+#about_page_benifit_section{
+    padding: 120px 0 102px;
+}
+.about_page_benifit_section_title{
+    margin-bottom: 43px;
+}
+.about_page_benifit_section_title h2{
+    margin-bottom: 18px;
+    font-size: 48.77px;
+    font-weight: 700;
+}
+.about_page_benifit_section_title p{
+    margin-bottom: 48px;
+    max-width: 460px;
+    margin: inherit;
+    font-size: 15px;
+    line-height: 1.5;
+  
+}
+.about_page_benifit_section_title h2 span{
+    font-size: 90px;
+    color: #2f80ed;
+    font-weight: 600;
+}
+.about_page_benifit_section_items .row .col-lg-6:nth-child(2) , .about_page_benifit_section_items .row .col-lg-6:nth-child(4){
+    top: 60px;
+    position: relative;
+}
+.about_page_benifit_section_item i{
+    color: #2f80ed;
+    
+}
+.about_page_benifit_section_item{
+    box-shadow: 0 0 10px #2f81ed8e;
+}
+@media only screen and (max-width: 768px){
+    .container_main_title_about_page{
+        padding: 45px 0 50px;
+        background: #131720;
+    }
+
+    .main_title_about_page h2{
+        display: none;
+    } 
+    .main_text_about_page{
+        font-size: .875rem;
+        margin-bottom: 0;
+        width: 300px;
+        margin: auto;
+    }
+    .main_text_about_page ul{
+        margin-top: 150px;
+    }
+    .about_page_welcome_img_box{
+        margin-bottom: 50px;
+
+    }
+    .about_page_welcome_img_box img{
+        width: 100%;
+    }
+    .about_page_mission_section_img_box img{
+        width: 100%;
+    }
+    .about_page_mission_section_img_box {
+        margin-bottom: 50px;
+    }
+    .about_page_welcome_section .row .col-lg-6:nth-child(1){
+        order: 1;
+    } 
+    #about_page_welcome_section{
+        text-align: left;
+    }
+    .about_page_welcome_title h2 br{
+        display: none;
+    }
+    .about_feature h3 {
+        font-size: 20px;
+    }
+    .about_feature p {
+        font-size: 13px;
+    }
+    .classes_title h2{
+        font-size: 40px;
+    }
+    .classes_title p{
+        max-width: 530px;
+        font-size: 17px;
+        margin-top: 18px;
+
+    }
+}
+@media only screen and (max-width: 991px){
+     
+    .about_page_welcome_title h2 {
+        font-size: 34px;
+        line-height: 46px;
+    }
+    .about_page_welcome_title p , .about_page_mission_title p{
+        font-size: 15px;
+        margin-bottom: 22px;
+    }
+    .about_page_mission_title ul li {
+        font-size: 13px;
+    }
+    .classes_title {
+        text-align: left;
+    }
+}
+@media only screen and (max-width: 480px){
+    .about_page_mission_title h2{
+        margin-top: 12px;
+        font-size: 30px;
+    }
+    #about_page_benifit_section {
+        padding: 25px 0 0;
+    }
+    .about_page_benifit_section_title h2{
+        font-size: 27px;
+    }
+    .about_page_benifit_section_title h2 span{
+        font-size: 47px;
+    }
+    #classes{
+        margin-top: 25px;
+    }
+    .newsletter-section{
+        margin-top:0px !important;
+    }
+}
+@media only screen and (max-width: 576px){
+    #about_page_benifit_section{
+        text-align: center;
+    }
+    .about_page_benifit_section_items .row .col-lg-6:nth-child(2), .about_page_benifit_section_items .row .col-lg-6:nth-child(4){
+        top: 0;
+        position: static;
+    }
+}
