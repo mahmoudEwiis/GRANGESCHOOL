@@ -11,7 +11,7 @@ School_site with some animation effect and user can change the main color of all
 
 
 
-Deployed it using Netlify [here](https://grangeschool.netlify.app/).
+Deployed it using Vercel [here](https://grangeschool.vercel.app/).
 
 Please leave a ⭐ as motivation if you liked the implementation 😄
 <br/>
